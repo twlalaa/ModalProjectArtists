@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Project #lala</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Welcome! Click to see top 10 songs of each artist!</h1>
+        <div class="button-container">
+          <button class="artist">The Smiths</button>
+          <button class="artist">ABBA</button>
+          <button class="artist">Modern Talking</button>
+        </div>
+      </div>
+      <div id="modal" class="hidden">
+        <button id="modal-close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div id="modal-message">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus error
+          accusamus asperiores voluptate, hic voluptatibus officia veniam unde
+          quidem quas?
+        </div>
+      </div>
+      <div id="overlay" class="hidden"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
